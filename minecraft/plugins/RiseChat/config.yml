@@ -1,0 +1,74 @@
+newPlayersChat:
+  restrict: false
+  minPlayTime: 3600000
+  restrictMessage: '&cВы не можете писать в чат, пока не отыграете {время} минут!'
+
+useLuckPermsPrefix: true
+
+discordSRV:
+  enabled: true
+  channelID: '123456789012345678'
+  global_format: '{игрок}: {сообщение}'
+
+joinMessages:
+  enabled: false
+  suppressDefault: true
+  format: '&8[&a+&8] &7{игрок} &aприсоединился к серверу!'
+firstJoinMessages:
+  enabled: false
+  suppressDefault: true
+  format: '&8[&b⭐&8] &e{игрок} &bприсоединился к серверу впервые! &dДобро пожаловать!'
+leaveMessages:
+  enabled: false
+  suppressDefault: true
+  format: '&8[&c-&8] &7{игрок} &cпокинул сервер!'
+
+# Настройки чата
+globalChatEnabled: true
+localChatEnabled: true
+localChatRadius: 100
+noPlayersMessageEnabled: false
+globalChatPrefix: '!'
+
+# Форматы сообщений
+messages:
+  chat:
+    global_format: '&3[Глобальный] &f{игрок}: {сообщение}'
+    local_format: '&2[Локальный] &f{игрок}: {сообщение}'
+    no_players_nearby: '&eРядом никого нет... Напишите &3! &eперед сообщением, чтобы
+      крикнуть на весь мир.'
+  pm:
+    usage: '&e💡 Подсказка: &fИспользуйте &d/pm <игрок> <сообщение>'
+    sender: '&#7F8C8D[&#F1C40FВы &#95A5A6-> &#F1C40F{получатель}&#7F8C8D] &#E3E3E3{сообщение}'
+    recipient: '&#7F8C8D[&#F1C40F{отправитель} &#95A5A6-> &#F1C40FЯ&#7F8C8D] &#E3E3E3{сообщение}'
+  menu:
+    sound_selection: '&b🔊 Выберите звук личных сообщений'
+    sound_selected: '&a✔ Вы успешно выбрали звук: &e{звук}'
+  spy:
+    usage: '&e💡 Подсказка: &fИспользуйте &d/spy <on|off>'
+    enabled: '&a✔ Режим шпиона успешно включен!'
+    disabled: '&c✖ Режим шпиона успешно отключен!'
+    already_enabled: '&e⚠ Режим шпиона уже работает на вашем аккаунте.'
+    already_disabled: '&e⚠ Режим шпиона уже выключен.'
+  ignore:
+    added: '&a✔ Игрок &e{игрок} &aдобавлен в ваш черный список.'
+    removed: '&6✔ Игрок &e{игрок} &6удален из вашего черного списка.'
+    already_ignored: '&e⚠ Этот игрок уже находится в списке игнорируемых.'
+    not_ignored: '&e⚠ Данного игрока нет в вашем черном списке.'
+    self: '&c✖ Нельзя добавить в игнор самого себя.'
+    usage: '&e💡 Подсказка: &fИспользуйте &d/ignore <игрок>'
+  mute:
+    muted: '&c✖ Вы были замучены! Чат заблокирован до: &e{время}'
+    muted_permanent: '&c✖ Вы замучены навсегда за нарушение правил!'
+    player_muted: '&a✔ Вы успешно выдали мут игроку &e{игрок} &aна &e{время}&a!'
+    player_muted_permanent: '&c✔ Вы навсегда заблокировали чат игроку &e{игрок}&c.'
+    player_unmuted: '&a✔ С игрока &e{игрок} &aуспешно сняты все ограничения чата.'
+    not_muted: '&e⚠ У игрока &e{игрок} &eнет активных блокировок чата.'
+    usage: '&e💡 Подсказка: &fИспользуйте &d/mute <игрок> [причина]'
+    tempmute_usage: '&e💡 Подсказка: &fИспользуйте &d/tempmute <игрок> <время> [причина]'
+    unmute_usage: '&e💡 Подсказка: &fИспользуйте &d/unmute <игрок>'
+  errors:
+    only_players: '&c✖ Эта команда доступна только живым игрокам из игры!'
+    player_not_found: '&c✖ Ошибка: указанный игрок не найден или находится в офлайне.'
+    no_permission: '&c✖ У вас недостаточно прав для выполнения этого действия!'
+    pm_self: '&c✖ Ошибка: вы не можете отправлять личные сообщения самому себе!'

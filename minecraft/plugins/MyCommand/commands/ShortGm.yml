@@ -1,0 +1,18 @@
+short_gm:
+  command: /gm
+  type: RUN_CONSOLE
+  runcmd:
+  - '$Script$%if%$arg1==1'
+  - 'minecraft:gamemode creative $arg2'
+  - '$Script$%else%if%$arg1==0'
+  - 'minecraft:gamemode survival $arg2'
+  - '$Script$%else%if%$arg1==3'
+  - 'minecraft:gamemode spectator $arg2'
+  - '$Script$%else%if%$arg1==2'
+  - 'minecraft:gamemode adventure $arg2'
+  - '$Script$%else%'
+  - '$text$&cИспользование: /gm <0|1|2|3> [игрок]'
+  - '$Script$%end%'
+  permission_node: mycommand.gm
+  required_args: 1
+  register: true

@@ -1,0 +1,9 @@
+messages:
+  # The message sent the first time the player joins
+  first-join: ""
+
+  # The message sent each time the player joins
+  join-message: "&8[&a+&8] &a%player% &7зашел(а) на сервер! "  #В КОНФИГЕ AUTH ME customJoinMessage
+
+  # The message sent each time the player leaves
+  quit-message: "&8[&c-&8] &c%player% &7покинул(а) сервер!"

@@ -1,0 +1,15 @@
+my_help_menu:
+  command: /help
+  type: RUN_COMMAND
+  runcmd:
+    - "$text$&6&lСписок команд сервера"
+    - "$text$&f/help &7— Команды сервера"
+    - "$text$&f/site &7— Наш сайт [В разработке]"
+    - "$text$&f/tg &7— Наш телеграм [В разработке]"
+    - "$text$&f/msg &7— Отправить сообщение игроку"
+    - "$text$&f/sit &7— Сидеть"
+    - "$text$&f/lay &7— Лежать"
+    - "$text$&f/crawl &7— Ползать"
+    - "$text$&f/spin &7— Крутиться"
+    - "$text$&f/layback &7— Лежать в обратном направление"
+    - "$text$&f/bellyflop &7— Лечь на живот"

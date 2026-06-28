@@ -1,0 +1,58 @@
+check_for_updates: true
+
+drop:
+  # Mode: "pvp", "pve", or "all"
+  mode: "all"
+  # Drop chance: 0.0 (0%) to 1.0 (100%)
+  chance: 1.0
+  prevent_when_invisible: false
+
+head:
+  name: "Голова игрока %head_player%'s"
+  
+  # Placeholders: %head_player%, %head_killer%, %head_world%, %head_coordinates%, %head_datetime%, %head_xp%, %head_weapon%, %head_id%
+  # lore: ""
+  
+  # Example lore (uncomment and remove 'lore: ""' above):
+  lore:
+    - "&e┌───────────────────────────"
+    - "&e│ &fЖертва: &7%head_player%"
+    - "&e│ &fУбийца: &c%head_killer%"
+    - "&e├───────────────────────────"
+    - "&e│ &7Оружие: &a%head_weapon%"
+    - "&e│ &7Опыт: &b%head_xp% XP"
+    - "&e│ &7Дата: &9%head_datetime%"
+    - "&e└───────────────────────────"
+  
+  # Date format (SimpleDateFormat): "dd/MM/yyyy HH:mm:ss", "MM/dd/yyyy hh:mm a", etc.
+  datetime_format: "dd/MM/yyyy HH:mm:ss"
+  # Timezone: "UTC", "America/New_York", "Europe/Paris", "server", etc.
+  datetime_timezone: "UTC"
+  
+  # Despawn time in seconds (max 300)
+  despawn_time: 300
+  disable_rename_in_anvil: false
+
+broadcast:
+  enabled: false
+  message: "§c%head_player%'s§r§6 head has been dropped !§r"
+
+effects:
+  lightning:
+    enabled: false
+  
+  sound:
+    enabled: false
+    type: "entity.player.levelup"
+  
+  particles:
+    enabled: false
+    duration: 10
+    type: "smoke"
+    # Shapes: "upward", "circle", "burst", "cycle", "pulse", "wave", "spiral"
+    shape: "upward"
+  
+  glowing:
+    enabled: false
+    duration: 10
+    color: "red"

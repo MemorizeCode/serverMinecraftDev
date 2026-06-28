@@ -1,0 +1,345 @@
+# Включить сообщения об обновлениях: включает уведомления
+enable-update-messages: true
+
+# Для использования HEX-цветов используйте формат &#hex
+# PvP сообщения: отправляет сообщение убийце и жертве, когда одного игрока убивает другой.
+enable-pvp-messages: true
+killer-message: '&eВы убили &c%victim%'
+victim-message: '&eВас убил &c%killer%'
+
+# Молния: эффект удара молнии в месте смерти.
+enable-lightning: false
+
+# Шанс выпадения головы: число от 0 до 1 (0 = 0%, 0.5 = 50%, 1 = 100%)
+drop-head-percentage: 0
+head-name: '&cГолова игрока %victim%'
+
+# Задержка сообщений: задержка в секундах между сообщениями о смерти. 0 — выключить.
+message-cooldown: 0
+
+# Включить глобальные сообщения: включает сообщения о смерти в общий чат
+enable-global-messages: true
+
+# Оригинал при наведении: показывать оригинальное сообщение о смерти при наведении на кастомное.
+enable-original-on-hover: false
+
+# Предмет при наведении: показывать предмет, которым был убит игрок, при наведении на имя предмета.
+enable-item-on-hover: true
+
+global-pvp-death-messages:
+  - '&c%victim% &eбыл убит игроком &c%killer%'
+
+melee-death-messages:
+  - '&c%victim% &eполучил удар от &c%killer%'
+  - '&c%victim% &eбыл нокаутирован игроком &c%killer%'
+  - '&c%victim% &eбыл переигран игроком &c%killer%'
+
+enable-custom-name-entity-messages: false
+custom-name-entity-messages:
+  - '&c%victim% &eполучил по заслугам от %entity-name%'
+  - '&c%victim% &eбыл отправлен спать сущностью %entity-name%'
+  - '&c%entity-name% &eоказался не по зубам для &c%victim%'
+  - '&c%victim% &eжалеет, что решил сразиться с %entity-name%'
+
+fall-damage-messages:
+  - '&c%victim% &eзабыл, что не умеет летать'
+  - '&c%victim% &eупал с большой высоты'
+  - '&c%victim% &eпопробовал прыгнуть с парашютом, но забыл парашют'
+  - '&c%victim% &eрешил проверить гравитацию на прочность'
+
+drowning-messages:
+  - '&c%victim% &eузнал, что у него нет жабр'
+  - '&c%victim% &eдумал, что успеет доплыть до воздуха'
+
+suffocation-messages:
+  - '&c%victim% &eзадохнулся в блоке'
+  - '&c%victim% &eне смог дышать внутри блока'
+
+cramming-messages:
+  - '&c%victim% &eбыл раздавлен в толпе'
+  - '&eБедный &c%victim%&e, он думал, что можно жить в пространстве 1x1'
+
+thorns-messages:
+  - '&c%victim% &eпострадал от кармы и шипов &c%killer%'
+  - '&c%victim% &eполучил урон от шипов &c%killer%'
+
+lava-messages:
+  - '&c%victim% &eсгорел в лаве'
+  - '&c%victim% &eупал в лаву... прощай, вещи'
+
+magma-block-messages:
+  - '&c%victim% &eподжарился на &6&lмагмовом блоке'
+  - '&c%victim% &eпревратился в бекон на &6магмовом блоке'
+
+elytra-messages:
+  - '&c%victim% &eврезался в стену на элитрах'
+  - '&c%victim% &eзабыл как летать... и умер'
+
+wither-messages:
+  - '&c%victim% &eзаразился иссушением'
+  - '&c%victim% &eиссушился до 4-го измерения'
+
+suicide-messages:
+  - '&c%victim% &eсдался'
+  - '&c%victim% &eпопал в неудачный инцидент'
+
+fire-messages:
+  - '&c%victim% &eзашел в огонь'
+  - '&c%victim% &eрешил поиграть с огнем'
+  - '&c%victim% &eсгорел из-за детской шалости со спичками'
+
+fire-tick-messages:
+  - '&c%victim% &eзабыл, что нужно остановиться, упасть и кататься'
+  - '&c%victim% &eподжаривался слишком долго'
+
+starvation-messages:
+  - '&c%victim% &eзабыл поесть'
+  - '&c%victim% &eостался голодным'
+
+cactus-messages:
+  - '&c%victim% &eбыл до смерти уколот кактусом'
+  - '&c%victim% &eпопробовал иглоукалывание кактусом, но умер'
+  - '&c%victim% &eпонял, что кактус не предназначен для объятий'
+
+potion-messages:
+  - '&c%victim% &eстал жертвой темной магии'
+  - '&c%victim% &eвыпил не то зелье'
+
+void-messages:
+  - '&c%victim% &eрешил прогуляться в пустоту'
+  - '&c%victim% &eузнал, что у пустоты нет дна'
+
+lightning-messages:
+  - '&c%victim% &eбыл поражен Тором'
+  - '&c%victim% &eбыл сражен молнией'
+
+falling-block-messages:
+  - '&c%victim% &eбыл раздавлен падающим блоком'
+  - '&c%victim% &eвыбрал неудачное место для стоянки'
+
+freeze-messages:
+  - '&c%victim% &eзамерз насмерть. &b&lБррр!'
+  - '&c%victim% &eзабыл надеть зимнюю куртку'
+
+firework-messages:
+  - '&c%victim% &eслишком рано поджег фейерверк'
+  - '&c%victim% &eушел эффектно, с бабахом'
+  - '&c%victim% &eулетел слишком высоко'
+
+slime-messages:
+  - '&c%victim% &eбыл раздавлен &a&lГИГАНТСКИМ СЛИЗНЕМ'
+  - '&c%victim% &eбыл поглощен слизью'
+
+zombie-messages:
+  - '&c%victim% &eбыл съеден заживо &a&lЗомби'
+  - '&c%victim% &eдумал, что &a&lЗомби &eдружелюбный'
+
+pigman-messages:
+  - '&c%victim% &eразозлил &d&lЗомби-пиглинов &eи был съеден'
+  - '&c%victim% &eзабыл, что они ходят толпой'
+
+skeleton-messages:
+  - '&c%victim% &eбыл подстрелен &f&lСкелетом'
+  - '&c%victim% &eполучил стрелу от &f&lСкелета'
+
+magmacube-messages:
+  - '&c%victim% &eбыл раздавлен &c&lГИГАНТСКИМ КУБОМ МАГМЫ'
+  - '&c%victim% &eнарвался на Куб Магмы'
+
+husk-messages:
+  - '&c%victim% &eбыл побежден Кадавром'
+  - '&c%victim% &eпроиграл бой очень сухому зомби'
+
+spider-messages:
+  - '&c%victim% &eиспытал удачу против своего страха... &c&lПАУКА!'
+  - '&c%victim% &eзапаниковал, когда Паук подошел слишком близко'
+
+cavespider-messages:
+  - '&c%victim% &eбыл до смерти искусан &c&lПещерным пауком'
+  - '&c%victim% &eузнал, что пещерные пауки играют грязно'
+
+witherskeleton-messages:
+  - '&c%victim% &eбыл побежден &f&lСкелетом-иссушителем'
+
+witherboss-messages:
+  - '&c%victim% &eбыл уничтожен Иссушителем'
+  - '&c%victim% &eполучил черепом Иссушителя в лицо'
+
+dragon-messages:
+  - '&c%victim% &eбыл отброшен &d&lЭндер Драконом'
+  - '&c%victim% &eулетел от &d&lЭндер Дракона'
+  - '&c%victim% &eнашел экран возрождения, а не портал в Энд'
+
+dragon-breath-messages:
+  - '&c%victim% &eискупался в дыхании &d&lЭндер Дракона'
+  - '&c%victim% &eвдохнул дыхание &d&lЭндер Дракона'
+
+elderguardian-messages:
+  - '&c%victim% &eпытался зачистить подводный храм, но &7&lДревний Страж &eсказал нет'
+  - '&c%victim% &eбыл изгнан &7&lДревним Стражем'
+
+tnt-messages:
+  - '&c%victim% &eбыл подброшен &c&lТНТ'
+  - '&c%victim% &eбыл взорван &c&lТНТ'
+  - '&e&lБАБАХ! &c%victim% &eузнал об опасности взрывчатки'
+  # - '&c%victim%  
+
+end-crystal-messages:
+  - '&c%victim% &eбыл разорван &d&lКристаллом Энда'
+  - '&c%victim% &eвзорвался от &d&lКристалла Энда'
+
+creeper-messages:
+  - '&c%victim% &eбыл взорван &a&lКрипером'
+  - '&c%victim% &eбыл взорван &a&lзелёным огурцом'
+  - '&c%victim% &eдолжен был услышать шипение'
+
+ghast-messages:
+  - '&c%victim% &eбыл поджарен огненным шаром &f&lГаста'
+  - '&c%victim% &eплохо провел время в небесах Незера'
+
+enderman-messages:
+  - '&c%victim% &eпосмотрел в глаза &d&lЭндермену'
+  - '&c%victim% &eпонял, что смотреть в глаза — ошибка'
+
+silverfish-messages:
+  - '&c%victim% &eбыл загрызен &7&lЧешуйницей'
+
+witch-messages:
+  - '&c%victim% &eпогиб от рук ведьмы'
+  - '&c%victim% &eлучше бы не пробовал сомнительное зелье ведьмы'
+
+shulker-messages:
+  - '&c%victim% &eпогиб, пытаясь достать &d&lпанцирь шалкера'
+  - '&c%victim% &eбыл подстрелен &d&lШалкером'
+  - '&eЛевиоооса! &c%victim% &eбыл подброшен &d&lШалкером'
+
+guardian-messages:
+  - '&c%victim% &eбыл убит &7&lСтражем... &eкак?'
+  - '&c%victim% &eполучил лазером в лицо от &7&lСтража'
+
+golem-messages:
+  - '&c%victim% &eразозлил &7&lЖелезного голема'
+
+zombievillager-messages:
+  - '&c%victim% &eбыл побежден &a&lЗомби-жителем'
+  - '&c%victim% &eпонял, что житель не собирался торговать'
+
+endermite-messages:
+  - '&c%victim% &eбыл побежден &d&lЭндермитом'
+  - '&c%victim% &eбыл повержен крошечной фиолетовой проблемой'
+
+phantom-messages:
+  - '&c%victim% &eбыл унесен &3&lФантомом'
+  - '&c%victim% &eслишком долго не спал'
+
+drowned-messages:
+  - '&c%victim% &eпошел поплавать ночью и был съеден &b&lУтопленником'
+  - '&c%victim% &eпонял, что вода сегодня опасна'
+
+pillager-messages:
+  - '&c%victim% &eбыл подстрелен &7&lРазбойником'
+  - '&c%victim% &eпопался на глаза &7&lРазбойнику'
+
+ravager-messages:
+  - '&c%victim% &eбыл сбит &7&lРазорителем'
+  - '&c%victim% &eне смог потягаться с &7&lРазорителем'
+
+illusioner-messages:
+  - '&c%victim% &eбыл обманут Иллюзионистом'
+  - '&c%victim% &eбыл убит &7&lИллюзионистом'
+
+bee-messages:
+  - '&c%victim% &eбыл ужален &lПчелой'
+  - '&c%victim% &eпотревожил не тот улей'
+
+wolf-messages:
+  - '&c%victim% &eбыл разорван &f&lВолком'
+  - '&c%victim% &eспровоцировал &f&lВолка'
+
+llama-messages:
+  - '&c%victim% &eбыл заплеван Ламой до смерти'
+  - '&c%victim% &eне выдержал плевков Ламы'
+
+blaze-messages:
+  - '&c%victim% &eбыл опален &6&lИфритом'
+  - '&c%victim% &eпопал под огонь &6&lИфрита'
+
+stray-messages:
+  - '&c%victim% &eбыл подстрелен Зимогором'
+  - '&c%victim% &eпоймал ледяную стрелу'
+
+vex-messages:
+  - '&c%victim% &eбыл побежден &f&lДосаждателем'
+  - '&c%victim% &eбыл замучен &f&lДосаждателем'
+
+vindicator-messages:
+  - '&c%victim% &eбыл выслежен &f&lПоборником'
+  - '&c%victim% &eвстретил Джонни... &f&lПоборника?'
+
+evoker-messages:
+  - '&c%victim% &eбыл призван к смерти &f&lВызывателем'
+  - '&c%victim% &eпопробовал гнев &f&lВызывателя'
+
+pufferfish-messages:
+  - '&c%victim% &eумер от яда Рыбы-фугу'
+  - '&c%victim% &eне должен был беспокоить злую рыбу'
+
+polar-bear-messages:
+  - '&c%victim% &eразозлил Белого медведя'
+  - '&c%victim% &eполучил удар от &f&lБелого медведя'
+
+dolphin-messages:
+  - '&c%victim% &eспровоцировал Дельфина... и проиграл'
+  - '&c%victim% &eударил Дельфина, и тот ответил'
+
+panda-messages:
+  - '&c%victim% &eне справился с Пандой'
+  - '&c%victim% &eпытался украсть бамбук у Панды'
+
+piglin-messages:
+  - '&c%victim% &eвстретил свою погибель от рук Пиглинов'
+  - '&c%victim% &eразозлил Пиглинов. Мы предупреждали: не воруйте у них...'
+
+hoglin-messages:
+  - '&c%victim% &eбыл атакован Хоглином'
+  - '&c%victim% &eне читал патчноуты про Хоглинов'
+
+zoglin-messages:
+  - '&c%victim% &eполучил рогом Зоглина'
+  - '&c%victim% &eбыл сбит Зоглином'
+
+zombified-piglin-messages:
+  - '&c%victim% &eбыл убит Зомбифицированным пиглином'
+  - '&c%victim% &eпогиб от Зомби-пиглина'
+
+fox-messages:
+  - '&c%victim% &eслишком много воображал и поплатился'
+  - '&c%victim% &eбыл переигран Лисой'
+
+warden-messages:
+  - '&c%victim% &eбыл убит Варденом... чего вы ожидали?'
+  - '&eВарден защитил Глубинную тьму от &c%victim%'
+
+warden-sonic-boom-messages:
+  - '&c%victim% &eбыл оглушен звуковым ударом Вардена'
+  - '&c%victim% &eполучил по ушам звуковым ударом Вардена'
+
+unknown-messages:
+  - '&c%victim% &eумер по неизвестным причинам'
+  - '&c%victim% &eумер'
+  - '&c%victim% &eбыл убит'
+
+fireball-messages:
+  - '&c%victim% &eбыл сожжен огненным шаром'
+  - '&c%victim% &eне смог увернуться от огненного шара'
+
+arrow-messages:
+  - '&c%victim% &eстал похож на дикобраза'
+  - '&c%victim% &eнашел острие стрелы'
+
+breeze-messages:
+  - '&c%victim% &eбыл отброшен Бризом'
+  - '&c%victim% &eне устоял перед Бризом'
+
+developer-mode: true
+config-version: 3
