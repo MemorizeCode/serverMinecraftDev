@@ -2,14 +2,14 @@
   {
     "name": "MemorizeCode",
     "uuid": "4d4543e7-dfc5-3eec-a5c7-bb597dbd1b3f",
-    "heads_dropped": 10,
-    "last_drop": 1782222988119
+    "heads_dropped": 11,
+    "last_drop": 1782800777136
   },
   {
     "name": "fire1234",
     "uuid": "c4516c05-9a6b-3825-bbf2-9e5337710d25",
-    "heads_dropped": 21,
-    "last_drop": 1782544826834
+    "heads_dropped": 26,
+    "last_drop": 1782803287132
   },
   {
     "name": "MemorizeCode",
@@ -20,7 +20,7 @@
   {
     "name": "archangels",
     "uuid": "ed1cc334-8610-3bc2-9103-e2f437981fdf",
-    "heads_dropped": 2,
-    "last_drop": 1782488748626
+    "heads_dropped": 8,
+    "last_drop": 1782803413276
   }
 ]

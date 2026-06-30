@@ -1,0 +1,36 @@
+################################################################
+#
+#    Chatty (version 3.0.0-SNAPSHOT)
+#    Author: Brikster
+#
+################################################################
+
+# Common messages
+chat-not-found: "<red>No matching chat found. Maybe you don't have enough permissions?"
+nobody-heard: <red>Nobody heard you.
+wait-cooldown: <red>Wait {secondsLeft} sec. before next message.
+
+# Messages for moderation
+advertisement-found: <red>Advertisement found in your message.
+caps-found: <red>Caps violations found in your message.
+swear-found: <red>Swear found in your message.
+
+# Messages for PM
+pm-player-not-found: <red>Player not found.
+pm-nobody-to-reply: <red>Nobody to reply.
+pm-cannot-pm-yourself: <red>You cannot PM yourself.
+pm-you-now-ignore: <green>You now ignore this player.
+pm-cannot-ignore-yourself: <red>You cannot ignore yourself.
+pm-you-already-ignore: <red>You already ignore this player.
+pm-you-dont-now-ignore: "<green>You now don't ignore this player."
+pm-you-dont-ignore: "<red>You don't ignore this player."
+pm-ignore-list: '<green>Ignore list: {players}.'
+
+# Messages for commands
+cmd-argument-parsing-error: '<red>Invalid command argument: {argument}.'
+cmd-usage-error: '<red>Usage: {usage}.'
+cmd-sender-type-error: <red>You cannot use this command.
+cmd-no-permission-error: "<red>You don't have permission."
+cmd-execution-error: <red>Error while command execution, report it to the server admin.
+reload-command-success: <green>Plugin successfully reloaded!
+clearchat-command-success: <green>Chat cleared.

@@ -1,310 +1,519 @@
-[06:40:11] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-LTS; Eclipse Adoptium Temurin-25.0.3+9) on Linux 6.6.114.1-microsoft-standard-WSL2 (amd64)
-[06:40:11] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2568-HEAD@f57bd86 (2026-04-04T22:25:54Z) for Minecraft 1.21.11
-[06:40:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:40:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
-[06:40:15] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[07:02:33] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-LTS; Eclipse Adoptium Temurin-25.0.3+9) on Linux 6.6.114.1-microsoft-standard-WSL2 (amd64)
+[07:02:33] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2568-HEAD@f57bd86 (2026-04-04T22:25:54Z) for Minecraft 1.21.11
+[07:02:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:02:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
+[07:02:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - JEIRecipeBridge (1.0.0), RHSignItem (1.21_R10)
-[06:40:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
- - AdvancedBan (2.3.0), AuthMe (5.7.0-FORK-b53), Chunky (1.4.40), CoreProtect (23.2), CustomDeathMessages (2.0.3), GSit (3.5.1), HeadDrop (2.8.2), ImageFrame (2026.1.3.0), JoinMessage (1.0), LuckPerms (5.5.53), MyCommand (5.7.4), OpenInv (5.3.0), PatPatPlugin (1.2.5+0268419), PlaceholderAPI (2.12.2), RiseChat (3.4), SkinsRestorer (15.12.3), SuperVanish (6.3.0), TAB (6.1.0), Vault (1.7.3-b131), voicechat (2.6.19)
-[06:40:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:40:24] [ServerMain/INFO]: Loaded 1470 recipes
-[06:40:24] [ServerMain/INFO]: Loaded 1584 advancements
-[06:40:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[06:40:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 394.1ms
-[06:40:24] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[06:40:24] [Server thread/INFO]: Loading properties
-[06:40:25] [Server thread/INFO]: This server is running Purpur version 1.21.11-2568-HEAD@f57bd86 (2026-04-04T22:25:54Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[06:40:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:40:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:40:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:40:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[06:40:26] [Server thread/INFO]: Default game type: SURVIVAL
-[06:40:26] [Server thread/INFO]: Generating keypair
-[06:40:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:40:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:40:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:40:26] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[06:40:26] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /data/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[06:40:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
-[06:40:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:40:28] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[06:40:28] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[06:40:28] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.0
-[06:40:28] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.19
-[06:40:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
-[06:40:28] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.3.0
-[06:40:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.3
-[06:40:28] [Server thread/INFO]: [RiseChat] Loading server plugin RiseChat v3.4
-[06:40:28] [Server thread/INFO]: [RHSignItem] Loading server plugin RHSignItem v1.21_R10
-[06:40:28] [Server thread/INFO]: [PatPatPlugin] Loading server plugin PatPatPlugin v1.2.5+0268419
-[06:40:28] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
-[06:40:28] [Server thread/INFO]: [JoinMessage] Loading server plugin JoinMessage v1.0
-[06:40:28] [Server thread/INFO]: [JEIRecipeBridge] Loading server plugin JEIRecipeBridge v1.0.0
-[06:40:28] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.3.0
-[06:40:28] [Server thread/INFO]: [HeadDrop] Loading server plugin HeadDrop v2.8.2
-[06:40:28] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
-[06:40:29] [Server thread/INFO]: [CustomDeathMessages] Loading server plugin CustomDeathMessages v2.0.3
-[06:40:29] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.2
-[06:40:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[06:40:29] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
-[06:40:29] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
-[06:40:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:40:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
-[06:40:29] [Server thread/INFO]:         __    
-[06:40:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
-[06:40:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[06:40:29] [Server thread/INFO]: 
-[06:40:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:40:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:40:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:40:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1740ms)
-[06:40:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:40:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:40:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:40:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[06:40:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.3
-[06:40:33] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
-[06:40:33] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.3]
-[06:40:33] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[06:40:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:40:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:40:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:40:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:40:34] [Server thread/INFO]: Preparing level "world"
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.3
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 03cc9fd
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:40:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[06:40:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[06:40:34] [Server thread/INFO]: Preparing spawn area: 100%
-[06:40:34] [Server thread/INFO]: Prepared spawn area in 1 ms
-[06:40:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[06:40:34] [Server thread/INFO]: Prepared spawn area in 1 ms
-[06:40:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[06:40:34] [Server thread/INFO]: Prepared spawn area in 0 ms
-[06:40:34] [Server thread/INFO]: Done preparing level "world" (0.958s)
-[06:40:34] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[06:40:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:40:35] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.0
-[06:40:35] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.19
-[06:40:35] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
-[06:40:35] [Server thread/INFO]: [voicechat] Compatibility version 20
-[06:40:35] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[06:40:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.19]
-[06:40:35] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[06:40:35] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
-[06:40:35] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_21_11.NMSImplementationProvider
-[06:40:36] [Server thread/INFO]: [TAB] Enabled in 431ms
-[06:40:36] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.3.0
-[06:40:36] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
-[06:40:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.3.0]
-[06:40:36] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
-[06:40:36] [Server thread/INFO]: [SuperVanish] Hooked into OpenInv
-[06:40:36] [Server thread/INFO]: [RiseChat] Enabling RiseChat v3.4
-[06:40:36] [Server thread/INFO]: [RiseChat] PlaceholderAPI найден, включена поддержка плейсхолдеров.
-[06:40:36] [Server thread/INFO]: [RiseChat] LuckPerms найден, включена поддержка префиксов и суффиксов.
-[06:40:36] [Server thread/INFO]: [RiseChat] RiseChat загружен с поддержкой RGB цветов (MiniMessage)!
-[06:40:36] [Server thread/INFO]: [RHSignItem] Enabling RHSignItem v1.21_R10
-[06:40:36] [Server thread/INFO]:  
-[06:40:36] [Server thread/INFO]:    __          __ _              _____ _                 
-[06:40:36] [Server thread/INFO]:   /__\  /\  /\/ _(_) __ _ _ __   \_   \ |_ ___ _ __ ___  
-[06:40:36] [Server thread/INFO]:  / \// / /_/ /\ \| |/ _` | '_ \   / /\/ __/ _ \ '_ ` _ \ 
-[06:40:36] [Server thread/INFO]: / _  \/ __  / _\ \ | (_| | | | /\/ /_ | | | __/ | | | | |
-[06:40:36] [Server thread/INFO]: \/ \_/\/ /_/  \__/_|\__, |_| |_\____/  \__\___|_| |_| |_|
-[06:40:36] [Server thread/INFO]:                     |___/                                
-[06:40:36] [Server thread/INFO]:                                                 (1.21_R10)
-[06:40:36] [Server thread/INFO]: «*» Adds a personal item signature ☄️ Customizable!
-[06:40:36] [Server thread/INFO]: «*» Made with 💕 by X0R3
-[06:40:36] [Server thread/INFO]:  
-[06:40:36] [Server thread/INFO]: [PatPatPlugin] Enabling PatPatPlugin v1.2.5+0268419
-[06:40:36] [Server thread/INFO]: [patpat-plugin] Plugin started
-[06:40:36] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[06:40:36] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[06:40:36] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
-[06:40:36] [Server thread/INFO]: | Command file(s) found : 2
-[06:40:36] [Server thread/INFO]: | Config : Ready.
-[06:40:36] [Server thread/INFO]: | ProtocolLib not found.
-[06:40:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
-[06:40:36] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[06:40:37] [Server thread/INFO]: | Custom commands loaded : 2
-[06:40:37] [Server thread/INFO]: | New update available : MyCommand v5.7.5
-[06:40:37] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[06:40:37] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[06:40:37] [Server thread/INFO]: [JoinMessage] Enabling JoinMessage v1.0
-[06:40:37] [Server thread/INFO]: [JEIRecipeBridge] Enabling JEIRecipeBridge v1.0.0
-[06:40:37] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.3.0
-[06:40:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: imageframe [1.0.0]
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[06:40:46] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[06:40:46] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[06:40:46] [Server thread/INFO]: [HeadDrop] Enabling HeadDrop v2.8.2
-[06:40:46] [Server thread/INFO]: [HeadDrop] HeadDrop plugin has been enabled
-[06:40:46] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
-[06:40:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.5.1]
-[06:40:46] [Server thread/INFO]: [GSit] Кушылма кушылды.
-[06:40:46] [Server thread/INFO]: [GSit] PlaceholderAPI белән бәяләнде!
-[06:40:46] [Server thread/INFO]: [CustomDeathMessages] Enabling CustomDeathMessages v2.0.3
-[06:40:47] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.2
-[06:40:47] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition был успешно запущен! 
-[06:40:47] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
-[06:40:47] [Server thread/INFO]: --------------------
-[06:40:47] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
-[06:40:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[06:40:47] [Server thread/INFO]: --------------------
-[06:40:47] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[06:40:47] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
-[06:40:47] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
-[06:40:48] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
-[06:40:48] [Server thread/ERROR]: [AuthMe] [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMePostgreSQLPool - Starting...
-[06:40:48] [Server thread/ERROR]: [AuthMe] [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMePostgreSQLPool - Start completed.
-[06:40:48] [Server thread/INFO]: [AuthMe] PostgreSQL setup finished
-[06:40:48] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[06:40:48] [Server thread/INFO]: [AuthMe] Hooked successfully into PlaceholderAPI
-[06:40:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: authme [5.7.0-FORK]
-[06:40:48] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[06:40:48] [Server thread/WARN]: [AuthMe] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
-[06:40:48] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-FORK-b53" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
-[06:40:48] [Server thread/INFO]: [AuthMe] 
+[07:02:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - AdvancedBan (2.3.0), AuthMe (5.7.0-FORK-b53), Chatty (3.0.0-SNAPSHOT), Chunky (1.4.40), CoreProtect (23.2), CustomDeathMessages (2.0.3), GSit (3.5.1), HeadDrop (2.8.2), ImageFrame (2026.1.3.0), JoinMessage (1.0), LuckPerms (5.5.53), MyCommand (5.7.4), OpenInv (5.3.0), PatPatPlugin (1.2.5+0268419), PlaceholderAPI (2.12.2), SkinsRestorer (15.12.4), SuperVanish (6.3.0), TAB (6.1.0), Vault (1.7.3-b131), voicechat (2.6.19)
+[07:02:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:02:46] [ServerMain/INFO]: Loaded 1470 recipes
+[07:02:46] [ServerMain/INFO]: Loaded 1584 advancements
+[07:02:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:02:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 677.7ms
+[07:02:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[07:02:47] [Server thread/INFO]: Loading properties
+[07:02:47] [Server thread/INFO]: This server is running Purpur version 1.21.11-2568-HEAD@f57bd86 (2026-04-04T22:25:54Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[07:02:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:02:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:02:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:02:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:02:48] [Server thread/INFO]: Default game type: SURVIVAL
+[07:02:48] [Server thread/INFO]: Generating keypair
+[07:02:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:02:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:02:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:02:49] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[07:02:49] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /data/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[07:02:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[07:02:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:02:50] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[07:02:50] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:02:50] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.0
+[07:02:50] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.19
+[07:02:50] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[07:02:50] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.3.0
+[07:02:50] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
+[07:02:50] [Server thread/INFO]: [RHSignItem] Loading server plugin RHSignItem v1.21_R10
+[07:02:50] [Server thread/INFO]: [PatPatPlugin] Loading server plugin PatPatPlugin v1.2.5+0268419
+[07:02:50] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[07:02:50] [Server thread/INFO]: [JoinMessage] Loading server plugin JoinMessage v1.0
+[07:02:50] [Server thread/INFO]: [JEIRecipeBridge] Loading server plugin JEIRecipeBridge v1.0.0
+[07:02:50] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.3.0
+[07:02:50] [Server thread/INFO]: [HeadDrop] Loading server plugin HeadDrop v2.8.2
+[07:02:50] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[07:02:50] [Server thread/INFO]: [CustomDeathMessages] Loading server plugin CustomDeathMessages v2.0.3
+[07:02:50] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.2
+[07:02:50] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[07:02:50] [Server thread/INFO]: [Chatty] Loading server plugin Chatty v3.0.0-SNAPSHOT
+[07:02:50] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+[07:02:50] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[07:02:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:02:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[07:02:50] [Server thread/INFO]:         __    
+[07:02:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[07:02:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[07:02:50] [Server thread/INFO]: 
+[07:02:51] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:02:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:02:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:02:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1330ms)
+[07:02:51] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:02:51] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:02:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:02:51] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:02:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
+[07:02:53] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[07:02:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:02:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.4]
+[07:02:54] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[07:02:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:02:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:02:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:02:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:02:54] [Server thread/INFO]: Preparing level "world"
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:02:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[07:02:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[07:02:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[07:02:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[07:02:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[07:02:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[07:02:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[07:02:54] [Server thread/INFO]: Done preparing level "world" (0.941s)
+[07:02:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[07:02:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:02:55] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.0
+[07:02:55] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.19
+[07:02:55] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
+[07:02:55] [Server thread/INFO]: [voicechat] Compatibility version 20
+[07:02:55] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[07:02:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.19]
+[07:02:55] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[07:02:55] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[07:02:55] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_21_11.NMSImplementationProvider
+[07:02:56] [Server thread/INFO]: [TAB] Enabled in 424ms
+[07:02:56] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.3.0
+[07:02:56] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[07:02:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.3.0]
+[07:02:56] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[07:02:56] [Server thread/INFO]: [SuperVanish] Hooked into OpenInv
+[07:02:56] [Server thread/INFO]: [RHSignItem] Enabling RHSignItem v1.21_R10
+[07:02:56] [Server thread/INFO]:  
+[07:02:56] [Server thread/INFO]:    __          __ _              _____ _                 
+[07:02:56] [Server thread/INFO]:   /__\  /\  /\/ _(_) __ _ _ __   \_   \ |_ ___ _ __ ___  
+[07:02:56] [Server thread/INFO]:  / \// / /_/ /\ \| |/ _` | '_ \   / /\/ __/ _ \ '_ ` _ \ 
+[07:02:56] [Server thread/INFO]: / _  \/ __  / _\ \ | (_| | | | /\/ /_ | | | __/ | | | | |
+[07:02:56] [Server thread/INFO]: \/ \_/\/ /_/  \__/_|\__, |_| |_\____/  \__\___|_| |_| |_|
+[07:02:56] [Server thread/INFO]:                     |___/                                
+[07:02:56] [Server thread/INFO]:                                                 (1.21_R10)
+[07:02:56] [Server thread/INFO]: «*» Adds a personal item signature ☄️ Customizable!
+[07:02:56] [Server thread/INFO]: «*» Made with 💕 by X0R3
+[07:02:56] [Server thread/INFO]:  
+[07:02:56] [Server thread/INFO]: [PatPatPlugin] Enabling PatPatPlugin v1.2.5+0268419
+[07:02:57] [Server thread/INFO]: [patpat-plugin] Plugin started
+[07:02:57] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[07:02:57] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[07:02:57] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[07:02:57] [Server thread/INFO]: | Command file(s) found : 2
+[07:02:57] [Server thread/INFO]: | Config : Ready.
+[07:02:57] [Server thread/INFO]: | ProtocolLib not found.
+[07:02:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[07:02:57] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[07:02:57] [Server thread/INFO]: | Custom commands loaded : 2
+[07:03:02] [Thread-13/ERROR]: [MyCommand] The updater could not contact dev.bukkit.org for updating.
+[07:03:02] [Thread-13/ERROR]: [MyCommand] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[07:03:02] [Thread-13/ERROR]: [MyCommand] null
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.base/java.net.Socket.connect(Unknown Source) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:?]
+	at MyCommand.jar//it.emmerrei.updater.Updater.read(Updater.java:644) ~[?:?]
+	at MyCommand.jar//it.emmerrei.updater.Updater.runUpdater(Updater.java:719) ~[?:?]
+	at MyCommand.jar//it.emmerrei.updater.Updater.access$0(Updater.java:718) ~[?:?]
+	at MyCommand.jar//it.emmerrei.updater.Updater$UpdateRunnable.run(Updater.java:714) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+[07:03:02] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[07:03:02] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[07:03:02] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[07:03:02] [Server thread/INFO]: [JoinMessage] Enabling JoinMessage v1.0
+[07:03:02] [Server thread/INFO]: [JEIRecipeBridge] Enabling JEIRecipeBridge v1.0.0
+[07:03:02] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.3.0
+[07:03:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: imageframe [1.0.0]
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[07:03:10] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[07:03:10] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[07:03:10] [Server thread/INFO]: [HeadDrop] Enabling HeadDrop v2.8.2
+[07:03:10] [Server thread/INFO]: [HeadDrop] HeadDrop plugin has been enabled
+[07:03:10] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[07:03:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.5.1]
+[07:03:10] [Server thread/INFO]: [GSit] Кушылма кушылды.
+[07:03:10] [Server thread/INFO]: [GSit] PlaceholderAPI белән бәяләнде!
+[07:03:10] [Server thread/INFO]: [CustomDeathMessages] Enabling CustomDeathMessages v2.0.3
+[07:03:11] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.2
+[07:03:11] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition был успешно запущен! 
+[07:03:11] [Server thread/INFO]: [CoreProtect] Для хранения данных используется SQLite.
+[07:03:11] [Server thread/INFO]: --------------------
+[07:03:11] [Server thread/INFO]: [CoreProtect] Нравится CoreProtect? Присоединяйтесь к нашему Discord!
+[07:03:11] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[07:03:11] [Server thread/INFO]: --------------------
+[07:03:11] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[07:03:11] [Server thread/INFO]: [Chatty] Enabling Chatty v3.0.0-SNAPSHOT
+[07:03:12] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:03:12] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@3e146a83
+[07:03:12] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 9.22.3 by Redgate
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] See release notes here: https://rd.gt/416ObMi
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] 
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.042s)
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:03:13] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:03:13] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:03:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:03:13] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[07:03:13] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[07:03:13] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
+[07:03:13] [Server thread/ERROR]: [AuthMe] [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMePostgreSQLPool - Starting...
+[07:03:14] [Server thread/ERROR]: [AuthMe] [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMePostgreSQLPool - Start completed.
+[07:03:14] [Server thread/INFO]: [AuthMe] PostgreSQL setup finished
+[07:03:14] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[07:03:14] [Server thread/INFO]: [AuthMe] Hooked successfully into PlaceholderAPI
+[07:03:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: authme [5.7.0-FORK]
+[07:03:14] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07:03:14] [Server thread/WARN]: [AuthMe] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
+[07:03:14] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-FORK-b53" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
+[07:03:14] [Server thread/INFO]: [AuthMe] 
     ___         __  __    __  ___   
    /   | __  __/ /_/ /_  /  |/  /__ 
   / /| |/ / / / __/ __ \/ /|_/ / _ \
  / ___ / /_/ / /_/ / / / /  / /  __/
 /_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
                                     
-[06:40:48] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
-[06:40:48] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
-[06:40:48] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
-[06:40:48] [Server thread/INFO]: [AuthMe] Checking for updates...
-[06:40:48] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
-[06:40:49] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-[06:40:51] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
-[06:40:51] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[06:41:12] [Server thread/INFO]: 
-[06:41:12] [Server thread/INFO]:  
-[06:41:12] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
-[06:41:12] [Server thread/INFO]: | Information:
-[06:41:12] [Server thread/INFO]: |   Name: AdvancedBan
-[06:41:12] [Server thread/INFO]: |   Developer: Leoko
-[06:41:12] [Server thread/INFO]: |   Version: 2.3.0
-[06:41:12] [Server thread/INFO]: |   Storage: HSQLDB (local)
-[06:41:12] [Server thread/INFO]: | Support:
-[06:41:12] [Server thread/INFO]: |   Github: https://github.com/DevLeoko/AdvancedBan/issues
-[06:41:12] [Server thread/INFO]: |   Discord: https://discord.gg/ycDG6rS
-[06:41:12] [Server thread/INFO]: | Twitter: @LeokoGar
-[06:41:12] [Server thread/INFO]: | Update:
-[06:41:12] [Server thread/INFO]: |   Failed to check for updates :(
-[06:41:12] [Server thread/INFO]: []================================[]
-[06:41:12] [Server thread/INFO]:  
-[06:41:12] [Server thread/INFO]: [spark] Starting background profiler...
-[06:41:12] [Server thread/WARN]: Could not register alias aliases because it contains commands that do not exist: MemorySection[path='aliases.aliases', root='YamlConfiguration']
-[06:41:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:41:12] [Server thread/INFO]: Starting remote control listener
-[06:41:12] [Server thread/INFO]: Thread RCON Listener started
-[06:41:12] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[06:41:12] [Server thread/INFO]: Running delayed init tasks
-[06:41:12] [Server thread/INFO]: Done (63.350s)! For help, type "help"
-[06:41:12] [Craft Scheduler Thread - 8 - HeadDrop/INFO]: [HeadDrop] Preloading 4 player profiles...
-[06:41:12] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:41:12] [Server thread/INFO]: [voicechat] Loading plugins
-[06:41:12] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[06:41:12] [Server thread/INFO]: [voicechat] Initializing plugins
-[06:41:12] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[06:41:12] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[06:41:12] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[06:41:12] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[06:41:12] [Craft Scheduler Thread - 7 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
-[06:41:13] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[06:41:13] [Server thread/INFO]: [HeadDrop] ========================================
-[06:41:13] [Server thread/INFO]: [HeadDrop] A new version of HeadDrop is available !
-[06:41:13] [Server thread/INFO]: [HeadDrop] Current version : 2.8.2
-[06:41:13] [Server thread/INFO]: [HeadDrop] Latest version : 3.0.1
-[06:41:13] [Server thread/INFO]: [HeadDrop] Download : https://modrinth.com/plugin/mT6OgveE/version/tbWW3Jay
-[06:41:13] [Server thread/INFO]: [HeadDrop] ========================================
-[06:41:13] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] You are running the latest version.
-[06:41:15] [User Authenticator #0/INFO]: UUID of player MemorizeCode is 4d4543e7-dfc5-3eec-a5c7-bb597dbd1b3f
-[06:41:15] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, CustomDeathMessages, SuperVanish]
-[06:41:16] [pool-34-thread-1/INFO]: [HeadDrop] Preloaded 4 profiles
-[06:41:17] [Server thread/INFO]: MemorizeCode[/172.18.0.1:47230] logged in with entity id 1 at ([world]0.5, 105.0, 0.5)
-[06:41:17] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] MemorizeCode logged in 172.18.0.1
-[06:41:18] [Server thread/INFO]: [+] MemorizeCode зашел(а) на сервер! 
-[06:41:22] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
-[06:41:43] [Craft Scheduler Thread - 12 - ImageFrame/INFO]: [ImageFrame] Failed to check against "api.loohpjames.com" for the latest version.. It could be an internet issue or "api.loohpjames.com" is down. If you want disable the update checker, you can disable in config.yml, but we still highly-recommend you to keep your plugin up to date!
-[06:42:13] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:42:13] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:42:25] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:42:25] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:42:53] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:42:53] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:43:19] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:43:19] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:43:24] [Server thread/INFO]: MemorizeCode issued server command: /time set day
-[06:43:24] [Server thread/INFO]: [MemorizeCode: Set the time to 1000]
-[06:43:28] [Server thread/INFO]: MemorizeCode issued server command: /msg MemorizeCode 1
-[06:43:48] [Server thread/INFO]: MemorizeCode issued server command: /pat
-[06:43:49] [Server thread/INFO]: MemorizeCode issued server command: /patpat
-[06:44:13] [Server thread/INFO]: MemorizeCode issued server command: /help
-[06:44:13] [Server thread/INFO]: MemorizeCode issued mycmd (my_help_menu) command /help
-[06:44:23] [User Authenticator #1/INFO]: UUID of player fire1234 is c4516c05-9a6b-3825-bbf2-9e5337710d25
-[06:44:23] [Server thread/INFO]: [⭐] fire1234 присоединился к серверу впервые! Добро пожаловать!
-[06:44:23] [Server thread/INFO]: fire1234[/172.18.0.1:41394] logged in with entity id 1089 at ([world]0.5, 105.0, 0.5)
-[06:44:30] [Server thread/INFO]: MemorizeCode issued server command: /tp fire1234
-[06:44:30] [Server thread/INFO]: [MemorizeCode: Teleported MemorizeCode to fire1234]
-[06:44:44] [Server thread/INFO]: [AuthMe] fire1234 registered 172.18.0.1
-[06:44:44] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] fire1234 logged in 172.18.0.1
-[06:44:44] [Server thread/INFO]: Welcome fire1234 to the server!
-[06:45:59] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:46:55] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:46:55] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:46:55] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:47:53] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:47:53] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:47:53] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:48:09] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:48:09] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:48:10] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:48:36] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:48:36] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:48:36] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:49:00] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:49:00] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:49:01] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:49:09] [Server thread/INFO]: MemorizeCode issued server command: /risechat reload
-[06:49:09] [Server thread/INFO]: [RiseChat] LuckPerms переподключен после перезагрузки.
-[06:49:09] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:49:16] [Server thread/INFO]: MemorizeCode issued server command: /spy
-[06:49:18] [Server thread/INFO]: MemorizeCode issued server command: /spy on
-[06:49:19] [Server thread/INFO]: MemorizeCode issued server command: /msg fire1234 1
-[06:49:23] [Server thread/INFO]: MemorizeCode issued server command: /spy off
-[06:49:42] [Server thread/INFO]: fire1234 был убит игроком MemorizeCode
-[06:49:42] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:49:59] [Server thread/INFO]: fire1234 был убит игроком MemorizeCode
-[06:50:22] [Server thread/INFO]: fire1234 разозлил Железного голема
-[06:50:27] [Server thread/INFO]: fire1234 разозлил Железного голема
-[06:50:33] [Server thread/INFO]: fire1234 разозлил Железного голема
-[06:50:37] [Server thread/INFO]: fire1234 разозлил Железного голема
-[06:51:42] [Server thread/INFO]: MemorizeCode issued server command: /co lookup action: action:-block time: 30s radius: 15
-[06:51:50] [Server thread/INFO]: MemorizeCode issued server command: /co rollback action: action:-block time: 30s radius: 15
-[06:54:24] [Server thread/INFO]: fire1234 думал, что Зомби дружелюбный
-[07:20:26] [Server thread/INFO]: fire1234 думал, что Зомби дружелюбный
-[07:33:38] [Server thread/INFO]: MemorizeCode lost connection: Disconnected
-[07:33:38] [Server thread/INFO]: [voicechat] Disconnecting client MemorizeCode
-[07:33:38] [Server thread/INFO]: [-] MemorizeCode покинул(а) сервер!
-[07:33:39] [Server thread/INFO]: fire1234 lost connection: Disconnected
-[07:33:39] [Server thread/INFO]: [voicechat] Disconnecting client fire1234
-[07:33:39] [Server thread/INFO]: [-] fire1234 покинул(а) сервер!
-[08:01:32] [Craft Scheduler Thread - 4 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: Connect timed out
+[07:03:14] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[07:03:14] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[07:03:14] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[07:03:14] [Server thread/INFO]: [AuthMe] Checking for updates...
+[07:03:14] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[07:03:14] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[07:03:15] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[07:03:15] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[07:03:15] [Server thread/INFO]: 
+[07:03:15] [Server thread/INFO]:  
+[07:03:15] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
+[07:03:15] [Server thread/INFO]: | Information:
+[07:03:15] [Server thread/INFO]: |   Name: AdvancedBan
+[07:03:15] [Server thread/INFO]: |   Developer: Leoko
+[07:03:15] [Server thread/INFO]: |   Version: 2.3.0
+[07:03:15] [Server thread/INFO]: |   Storage: HSQLDB (local)
+[07:03:15] [Server thread/INFO]: | Support:
+[07:03:15] [Server thread/INFO]: |   Github: https://github.com/DevLeoko/AdvancedBan/issues
+[07:03:15] [Server thread/INFO]: |   Discord: https://discord.gg/ycDG6rS
+[07:03:15] [Server thread/INFO]: | Twitter: @LeokoGar
+[07:03:15] [Server thread/INFO]: | Update:
+[07:03:15] [Server thread/INFO]: |   You have the newest version
+[07:03:15] [Server thread/INFO]: []================================[]
+[07:03:15] [Server thread/INFO]:  
+[07:03:15] [Server thread/INFO]: [spark] Starting background profiler...
+[07:03:15] [Server thread/WARN]: Could not register alias aliases because it contains commands that do not exist: MemorySection[path='aliases.aliases', root='YamlConfiguration']
+[07:03:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:03:15] [Server thread/INFO]: Starting remote control listener
+[07:03:15] [Server thread/INFO]: Thread RCON Listener started
+[07:03:15] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[07:03:15] [Server thread/INFO]: Running delayed init tasks
+[07:03:15] [Server thread/INFO]: Done (43.586s)! For help, type "help"
+[07:03:15] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:03:15] [Craft Scheduler Thread - 4 - HeadDrop/INFO]: [HeadDrop] Preloading 4 player profiles...
+[07:03:15] [Craft Scheduler Thread - 0 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[07:03:15] [Server thread/INFO]: [voicechat] Loading plugins
+[07:03:15] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[07:03:15] [Server thread/INFO]: [voicechat] Initializing plugins
+[07:03:15] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[07:03:15] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[07:03:16] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[07:03:16] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[07:03:16] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[07:03:16] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] You are running the latest version.
+[07:03:16] [Server thread/INFO]: [HeadDrop] ========================================
+[07:03:16] [Server thread/INFO]: [HeadDrop] A new version of HeadDrop is available !
+[07:03:16] [Server thread/INFO]: [HeadDrop] Current version : 2.8.2
+[07:03:16] [Server thread/INFO]: [HeadDrop] Latest version : 3.0.1
+[07:03:16] [Server thread/INFO]: [HeadDrop] Download : https://modrinth.com/plugin/mT6OgveE/version/tbWW3Jay
+[07:03:16] [Server thread/INFO]: [HeadDrop] ========================================
+[07:03:19] [pool-39-thread-1/INFO]: [HeadDrop] Preloaded 4 profiles
+[07:03:50] [User Authenticator #0/INFO]: UUID of player MemorizeCode is 4d4543e7-dfc5-3eec-a5c7-bb597dbd1b3f
+[07:03:50] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Chatty, LuckPerms, AuthMe, CustomDeathMessages, SuperVanish]
+[07:03:52] [Server thread/INFO]: [+] MemorizeCode присоединился к серверу!
+[07:03:52] [Server thread/INFO]: MemorizeCode[/172.18.0.1:59208] logged in with entity id 1 at ([world]0.5, 105.0, 0.5)
+[07:03:52] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] MemorizeCode logged in 172.18.0.1
+[07:04:02] [Server thread/INFO]: MemorizeCode issued server command: /pm
+[07:04:04] [Server thread/INFO]: MemorizeCode issued server command: /spy
+[07:04:10] [Server thread/INFO]: MemorizeCode issued server command: /lp editor
+[07:04:27] [Server thread/INFO]: MemorizeCode issued server command: /chatty:pm
+[07:04:33] [User Authenticator #0/INFO]: UUID of player fire1234 is c4516c05-9a6b-3825-bbf2-9e5337710d25
+[07:04:33] [Server thread/INFO]: [+] fire1234 присоединился к серверу!
+[07:04:33] [Server thread/INFO]: fire1234[/172.18.0.1:33754] logged in with entity id 310 at ([world]0.5, 105.0, 0.5)
+[07:04:33] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] fire1234 logged in 172.18.0.1
+[07:04:33] [Server thread/INFO]: [+] fire1234 зашел(а) на сервер! 
+[07:04:35] [Thread-17/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:04:49] [Server thread/INFO]: MemorizeCode issued server command: /v
+[07:04:52] [Server thread/INFO]: fire1234 issued server command: /msg MemorizeCode 111
+[07:04:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] fire1234 -> MemorizeCode: 111
+[07:04:57] [User Authenticator #0/INFO]: UUID of player archangels is ed1cc334-8610-3bc2-9103-e2f437981fdf
+[07:04:58] [Server thread/INFO]: [+] archangels присоединился к серверу!
+[07:04:58] [Server thread/INFO]: archangels[/172.18.0.1:50400] logged in with entity id 397 at ([world]0.5, 105.0, 0.5)
+[07:04:58] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] archangels logged in 172.18.0.1
+[07:04:58] [Server thread/INFO]: [+] archangels зашел(а) на сервер! 
+[07:05:03] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:05:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:05:03] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:05:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:05:04] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:05:04] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:05:04] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:05:04] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:05:04] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:05:04] [ForkJoinPool.commonPool-worker-1/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:05:09] [Server thread/INFO]: MemorizeCode issued server command: /spy
+[07:05:23] [Async Chat Thread - #1/INFO]: [Not Secure] [Local] MemorizeCode: ffdfd
+[07:05:24] [Async Chat Thread - #1/INFO]: [Not Secure] [Global] MemorizeCode: ffd
+[07:05:25] [placeholderapi-io-#0/WARN]: [PlaceholderAPI] Failed to download expansion information
+java.io.IOException: Premature EOF
+	at java.base/sun.net.www.http.ChunkedInputStream.fastRead(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.http.ChunkedInputStream.read(Unknown Source) ~[?:?]
+	at java.base/java.io.FilterInputStream.read(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source) ~[?:?]
+	at com.google.common.io.ByteStreams.toByteArrayInternal(ByteStreams.java:193) ~[guava-33.5.0-jre.jar:?]
+	at com.google.common.io.ByteStreams.toByteArray(ByteStreams.java:242) ~[guava-33.5.0-jre.jar:?]
+	at com.google.common.io.ByteSource.read(ByteSource.java:299) ~[guava-33.5.0-jre.jar:?]
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:473) ~[guava-33.5.0-jre.jar:?]
+	at com.google.common.io.Resources.toString(Resources.java:108) ~[guava-33.5.0-jre.jar:?]
+	at PlaceholderAPI-2.12.2(2).jar//me.clip.placeholderapi.expansion.manager.CloudExpansionManager.lambda$fetch$4(CloudExpansionManager.java:189) ~[?:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+[07:06:19] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:06:19] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:06:19] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:06:19] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:06:19] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@23ec1b90
+[07:06:19] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:06:19] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:06:19] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.003s)
+[07:06:19] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:06:19] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:06:19] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:06:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:06:22] [Server thread/INFO]: archangels lost connection: Disconnected
+[07:06:22] [Server thread/INFO]: [voicechat] Disconnecting client archangels
+[07:06:22] [Server thread/INFO]: [-] archangels покинул сервер!
+[07:06:26] [User Authenticator #1/INFO]: UUID of player archangels is ed1cc334-8610-3bc2-9103-e2f437981fdf
+[07:06:26] [Server thread/INFO]: [+] archangels присоединился к серверу!
+[07:06:26] [Server thread/INFO]: archangels[/172.18.0.1:34484] logged in with entity id 536 at ([world]0.5, 105.0, 0.5)
+[07:06:26] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] archangels logged in 172.18.0.1
+[07:06:26] [Server thread/INFO]: [+] archangels зашел(а) на сервер! 
+[07:06:47] [Craft Scheduler Thread - 17 - CustomDeathMessages/INFO]: [CustomDeathMessages] Failed to check plugin for updates: Connection refused
+[07:07:05] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:07:05] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:07:05] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:07:05] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:07:05] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@27788e7c
+[07:07:05] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:07:05] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:07:05] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.002s)
+[07:07:05] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:07:05] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:07:05] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:07:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:07:07] [Server thread/INFO]: archangels lost connection: Disconnected
+[07:07:07] [Server thread/INFO]: [voicechat] Disconnecting client archangels
+[07:07:07] [Server thread/INFO]: [-] archangels покинул сервер!
+[07:07:09] [User Authenticator #1/INFO]: UUID of player archangels is ed1cc334-8610-3bc2-9103-e2f437981fdf
+[07:07:09] [Server thread/INFO]: [+] archangels присоединился к серверу!
+[07:07:09] [Server thread/INFO]: archangels[/172.18.0.1:47290] logged in with entity id 600 at ([world]0.5, 105.0, 0.5)
+[07:07:09] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] archangels logged in 172.18.0.1
+[07:07:09] [Server thread/INFO]: [+] archangels зашел(а) на сервер! 
+[07:07:49] [Server thread/INFO]: archangels думал, что Зомби дружелюбный
+[07:08:01] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:08:01] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:08:01] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:08:02] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:08:02] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@75ebc92
+[07:08:02] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:08:02] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:08:02] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.003s)
+[07:08:02] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:08:02] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:08:02] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:08:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:08:06] [Server thread/INFO]: archangels lost connection: Disconnected
+[07:08:06] [Server thread/INFO]: [voicechat] Disconnecting client archangels
+[07:08:06] [Server thread/INFO]: [-] archangels покинул(а) сервер!
+[07:08:07] [Server thread/INFO]: fire1234 был съеден заживо Зомби
+[07:08:10] [User Authenticator #1/INFO]: UUID of player archangels is ed1cc334-8610-3bc2-9103-e2f437981fdf
+[07:08:10] [Server thread/INFO]: archangels[/172.18.0.1:41892] logged in with entity id 702 at ([world]0.5, 105.0, 0.5)
+[07:08:10] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] archangels logged in 172.18.0.1
+[07:08:10] [Server thread/INFO]: [+] archangels зашел(а) на сервер! 
+[07:08:26] [Server thread/INFO]: archangels думал, что Зомби дружелюбный
+[07:09:47] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:09:47] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:09:47] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:09:47] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:09:47] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@1ef46d1c
+[07:09:47] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:09:47] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:09:47] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.002s)
+[07:09:47] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:09:47] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:09:47] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:09:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:09:52] [Server thread/INFO]: MemorizeCode issued server command: /time set day
+[07:09:52] [Server thread/INFO]: [MemorizeCode: Set the time to 1000]
+[07:09:55] [Server thread/INFO]: archangels issued server command: /pm fire1234 z
+[07:09:55] [ForkJoinPool.commonPool-worker-2/INFO]: [Chatty] [PM] archangels -> fire1234: z
+[07:09:58] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:09:58] [ForkJoinPool.commonPool-worker-2/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:10:00] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:10:00] [ForkJoinPool.commonPool-worker-2/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:10:01] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:10:01] [ForkJoinPool.commonPool-worker-2/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:10:13] [Server thread/INFO]: archangels был съеден заживо Зомби
+[07:11:15] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:11:15] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:11:15] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:11:15] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:11:15] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@13f7ab44
+[07:11:15] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:11:15] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:11:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.002s)
+[07:11:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:11:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:11:15] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:11:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:11:17] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:11:17] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:11:20] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:11:20] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:11:21] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:11:21] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:11:48] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:11:48] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:11:48] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:11:48] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:11:48] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@49c4da31
+[07:11:48] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:11:48] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:11:48] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.003s)
+[07:11:48] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:11:48] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:11:48] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:11:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:11:51] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:11:51] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:12:23] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:12:23] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:12:23] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:12:23] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:12:23] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@59ce92ac
+[07:12:23] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:12:23] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:12:23] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.003s)
+[07:12:23] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:12:23] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:12:23] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:12:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:12:26] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:12:26] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:12:27] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:12:27] [ForkJoinPool.commonPool-worker-3/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:12:28] [Async Chat Thread - #2/INFO]: [Not Secure] [Local] archangels: z
+[07:12:32] [Async Chat Thread - #2/INFO]: [Not Secure] [Local] fire1234: z
+[07:13:30] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:13:30] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:13:30] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:13:30] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:13:30] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@588b9c99
+[07:13:30] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:13:30] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:13:30] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.005s)
+[07:13:30] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:13:30] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:13:30] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:13:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:13:34] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:13:34] [ForkJoinPool.commonPool-worker-4/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:13:36] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:13:36] [ForkJoinPool.commonPool-worker-4/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:13:36] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:13:36] [ForkJoinPool.commonPool-worker-4/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:13:38] [Server thread/INFO]: archangels issued server command: /pm fire1234 1
+[07:13:38] [ForkJoinPool.commonPool-worker-4/INFO]: [Chatty] [PM] archangels -> fire1234: 1
+[07:14:51] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:14:51] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:14:51] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:14:51] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:14:51] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@16b8e643
+[07:14:51] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:14:51] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:14:51] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.004s)
+[07:14:51] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:14:51] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:14:51] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:14:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:14:54] [Async Chat Thread - #4/INFO]: [Not Secure] [Local] MemorizeCode: fdf
+[07:15:17] [Async Chat Thread - #5/INFO]: [Not Secure] [Global] MemorizeCode: z
+[07:16:03] [Server thread/INFO]: MemorizeCode issued server command: /chatty reload
+[07:16:03] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown initiated...
+[07:16:03] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Shutdown completed.
+[07:16:03] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Starting...
+[07:16:03] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.pool.HikariPool] Chatty - Added connection org.sqlite.jdbc4.JDBC4Connection@6a7aef64
+[07:16:03] [Server thread/INFO]: [ru.brikster.chatty.shaded.com.zaxxer.hikari.HikariDataSource] Chatty - Start completed.
+[07:16:03] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Chatty/database.sqlite (SQLite 3.49)
+[07:16:03] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.002s)
+[07:16:03] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 1
+[07:16:03] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[07:16:03] [Server thread/INFO]: [Chatty] Using LuckPerms as prefix provider
+[07:16:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [3.0.0-SNAPSHOT]
+[07:16:03] [Async Chat Thread - #5/INFO]: [Not Secure] [Локальный] MemorizeCode: я
+[07:16:05] [Async Chat Thread - #4/INFO]: [Not Secure] [Глобальный] MemorizeCode: яы
+[07:18:31] [Server thread/INFO]: archangels lost connection: Disconnected
+[07:18:31] [Server thread/INFO]: [voicechat] Disconnecting client archangels
+[07:18:31] [Server thread/INFO]: [-] archangels покинул(а) сервер!
+[07:18:33] [Server thread/INFO]: fire1234 lost connection: Disconnected
+[07:18:33] [Server thread/INFO]: [voicechat] Disconnecting client fire1234
+[07:18:33] [Server thread/INFO]: [-] fire1234 покинул(а) сервер!
+[07:18:35] [Server thread/INFO]: MemorizeCode lost connection: Disconnected
+[07:18:35] [Server thread/INFO]: [voicechat] Disconnecting client MemorizeCode
+[07:18:35] [Server thread/INFO]: [-] MemorizeCode покинул(а) сервер!

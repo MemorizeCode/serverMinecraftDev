@@ -4027,3 +4027,94 @@ expected the node content, but found '-'
 [06-27 06:41:17]: [INFO:FINE] MemorizeCode logged in 172.18.0.1
 [06-27 06:44:44]: [INFO:FINE] fire1234 registered 172.18.0.1
 [06-27 06:44:44]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 06:07:49]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[06-30 06:07:49]: [INFO] PostgreSQL setup finished
+[06-30 06:07:50]: [INFO] Hooked into LuckPerms!
+[06-30 06:07:50]: [INFO] Hooked successfully into PlaceholderAPI
+[06-30 06:07:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-30 06:07:50]: [WARN] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
+[06-30 06:07:50]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[06-30 06:07:50]: [INFO] AuthMeReReloaded is running on Paper
+[06-30 06:07:50]: [INFO] AuthMeReReloaded is enabled successfully!
+[06-30 06:07:50]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[06-30 06:07:50]: [INFO] Checking for updates...
+[06-30 06:07:53]: [INFO] You are running the latest version.
+[06-30 06:10:28]: [INFO:FINE] MemorizeCode logged in 172.18.0.1
+[06-30 06:13:02]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 06:14:21]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[06-30 06:15:44]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[06-30 06:15:45]: [INFO] PostgreSQL setup finished
+[06-30 06:15:45]: [INFO] Hooked into LuckPerms!
+[06-30 06:15:45]: [INFO] Hooked successfully into PlaceholderAPI
+[06-30 06:15:45]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-30 06:15:45]: [WARN] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
+[06-30 06:15:45]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[06-30 06:15:45]: [INFO] AuthMeReReloaded is running on Paper
+[06-30 06:15:45]: [INFO] AuthMeReReloaded is enabled successfully!
+[06-30 06:15:45]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[06-30 06:15:45]: [INFO] Checking for updates...
+[06-30 06:16:08]: [INFO] You are running the latest version.
+[06-30 06:16:21]: [INFO:FINE] MemorizeCode logged in 172.18.0.1
+[06-30 06:17:17]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 06:17:27]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 06:53:26]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[06-30 06:54:47]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[06-30 06:54:47]: [INFO] PostgreSQL setup finished
+[06-30 06:54:47]: [INFO] Hooked into LuckPerms!
+[06-30 06:54:48]: [INFO] Hooked successfully into PlaceholderAPI
+[06-30 06:54:48]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-30 06:54:48]: [WARN] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
+[06-30 06:54:48]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[06-30 06:54:48]: [INFO] AuthMeReReloaded is running on Paper
+[06-30 06:54:48]: [INFO] AuthMeReReloaded is enabled successfully!
+[06-30 06:54:48]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[06-30 06:54:48]: [INFO] Checking for updates...
+[06-30 06:54:49]: [INFO] You are running the latest version.
+[06-30 06:55:03]: [INFO:FINE] MemorizeCode logged in 172.18.0.1
+[06-30 06:55:23]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 06:55:31]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 06:55:44]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 06:59:51]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 07:02:19]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[06-30 07:03:13]: [INFO] Connection arguments loaded, Hikari ConnectionPool ready!
+[06-30 07:03:14]: [INFO] PostgreSQL setup finished
+[06-30 07:03:14]: [INFO] Hooked into LuckPerms!
+[06-30 07:03:14]: [INFO] Hooked successfully into PlaceholderAPI
+[06-30 07:03:14]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-30 07:03:14]: [WARN] WARNING! The denyTabComplete feature requires ProtocolLib! Disabling it...
+[06-30 07:03:14]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[06-30 07:03:14]: [INFO] AuthMeReReloaded is running on Paper
+[06-30 07:03:14]: [INFO] AuthMeReReloaded is enabled successfully!
+[06-30 07:03:14]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[06-30 07:03:14]: [INFO] Checking for updates...
+[06-30 07:03:16]: [INFO] You are running the latest version.
+[06-30 07:03:52]: [INFO:FINE] MemorizeCode logged in 172.18.0.1
+[06-30 07:04:33]: [INFO:FINE] fire1234 logged in 172.18.0.1
+[06-30 07:04:58]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 07:06:26]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 07:07:09]: [INFO:FINE] archangels logged in 172.18.0.1
+[06-30 07:08:10]: [INFO:FINE] archangels logged in 172.18.0.1

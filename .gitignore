@@ -1,0 +1,6 @@
+minecraft/.env
+minecraft/.rcon-cli.env
+minecraft/.rcon-cli.yaml
+minecraft/logs/*
+minecraft/usercache.json
+
