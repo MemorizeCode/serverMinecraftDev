@@ -8,7 +8,7 @@
   "api": true,
   "listMode": "DISABLED",
   "rateLimit": {
-    "enabled": false,
+    "enabled": true,
     "tokenLimit": 20,
     "tokenIncrement": 1,
     "tokenInterval": "1sec",
