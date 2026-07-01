@@ -41,7 +41,7 @@ InvisibilityFeatures:
 
   Fly:
     # Should invisible players be able to fly even if they aren't in creative/spectator mode?
-    Enable: true
+    Enable: false
     # Should invisible players WITHOUT the permission 'sv.keepfly' lose the ability to fly on reappear?
     DisableOnReappear: true
 
@@ -88,9 +88,9 @@ MessageOptions:
 
   FakeJoinQuitMessages:
     # Отключить сообщение "fake quit" при уходе в инвиз
-    BroadcastFakeQuitOnVanish: false
+    BroadcastFakeQuitOnVanish: true
     # Отключить сообщение "fake join" при выходе из инвиза
-    BroadcastFakeJoinOnReappear: false
+    BroadcastFakeJoinOnReappear: true
     # Отключить уведомления для админов (sv.see)
     AnnounceVanishReappearToAdmins: false
     SendMessageOnlyToAdmins: false
