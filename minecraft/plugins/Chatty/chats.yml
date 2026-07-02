@@ -133,7 +133,7 @@ chats:
     # If true, player will receive a special message, 
     # when his message has no recipients.
     # Message can be configured in locale files
-    notify-nobody-heard: true
+    notify-nobody-heard: false
     
     # If true, URLs from player messages will be processed
     # and made clickable.
