@@ -320,3 +320,4 @@ unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
   update-equipment-on-player-actions: false
   allow-mace-swap: true
+  allow-spear-swap: true
