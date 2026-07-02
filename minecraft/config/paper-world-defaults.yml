@@ -318,3 +318,5 @@ tick-rates:
 unsupported-settings:
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true
+  update-equipment-on-player-actions: false
+  allow-mace-swap: true
